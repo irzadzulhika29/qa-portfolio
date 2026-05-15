@@ -1,0 +1,49 @@
+{
+  "id": "arteri-production",
+  "name": "Arteri Production",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "https://backend.arterilearning.com/api/v1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "student_username",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "student_password",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "admin_username",
+      "value": "grackrev@gmail.com",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "admin_password",
+      "value": "jainul123",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "exam_code",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "enrollment_code",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}

@@ -34,16 +34,19 @@ Tujuan testing adalah memastikan Arteri Learning Platform berjalan sesuai requir
 
 | Item | Detail |
 |---|---|
-| Environment | Public web + local repo inspection baseline |
+| Environment | Public production web (https://arterilearning.com/) |
 | Web URL | https://arterilearning.com/ |
 | API Base URL | https://backend.arterilearning.com/api/v1/ |
-| API Documentation | https://documenter.getpostman.com/view/33317073/2sBXVhErfi#674f868a-1ecc-46d2-a27d-8b840f16f070 |
-| Browser | Planned: Chrome, Edge |
-| OS | Windows 11 |
-| Device | Desktop |
-| Database | No direct access |
-| Test Account Student | TBD |
-| Test Account Teacher/Admin | TBD |
+| API Documentation | https://documenter.getpostman.com/view/33317073/2sBXVhErfi |
+| Frontend Tech | Next.js (React), TypeScript |
+| Authentication | JWT (localStorage + cookie) |
+| Browser | Chrome (primary), Edge (secondary) |
+| OS | Ubuntu Linux / Windows 11 |
+| Device | Desktop (responsive testing as needed) |
+| Database | No direct access (API-only testing) |
+| Test Account Student | TBD - Required for student flow testing |
+| Test Account Teacher/Admin | TBD - Required for admin flow testing |
+| Test Data | Enrollment codes, exam codes, participant data (TBD) |
 
 ## 4. Test Types
 
