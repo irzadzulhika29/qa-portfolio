@@ -1,0 +1,72 @@
+=== LMS PROJECT API TEST REPORT ===
+Date: 17 May 2026 01:17
+Base URL: http://localhost:8080/api/v1
+
+
+============================================================
+  1. PUBLIC ENDPOINTS
+============================================================
+PASS | GET /province/all | Status 200
+PASS | Response format valid | Keys: ['status', 'message', 'data']
+PASS | GET /city/all | Status 200
+PASS | GET /search/school | Status 200
+PASS | GET /teams | Status 200
+PASS | GET /upcoming-exam | Status 200
+PASS | GET /courses/browse | Status 200
+
+============================================================
+  2. AUTH FLOW
+============================================================
+PASS | POST /auth/register-elearning/otp | Status 200
+PASS | OTP response has session_token | Got session_token: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...
+PASS | POST /auth/login-elearning (invalid creds) | Status 400
+PASS | POST /auth/login-elearning (empty body) | Status 400
+
+============================================================
+  3. ERROR HANDLING
+============================================================
+PASS | GET /nonexistent-route (404 expected) | Status 404
+PASS | POST with invalid JSON | Status 400
+PASS | GET /student/profile (unauthorized) | Status 401
+PASS | GET /teacher/courses (unauthorized) | Status 401
+
+============================================================
+  4. RESPONSE FORMAT VALIDATION
+============================================================
+PASS | Response has 'status' field
+PASS | Status has 'code' (int)
+PASS | Status has 'isSuccess' (bool)
+PASS | Response has 'message'
+
+============================================================
+  TEST SUMMARY
+============================================================
+  Total Tests : 19
+  Passed      : 19
+  Failed      : 0
+  Success Rate: 100.0%
+============================================================
+
+
+=== RAW RESULTS ===
+[
+  "PASS | GET /province/all | Status 200",
+  "PASS | Response format valid | Keys: ['status', 'message', 'data']",
+  "PASS | GET /city/all | Status 200",
+  "PASS | GET /search/school | Status 200",
+  "PASS | GET /teams | Status 200",
+  "PASS | GET /upcoming-exam | Status 200",
+  "PASS | GET /courses/browse | Status 200",
+  "PASS | POST /auth/register-elearning/otp | Status 200",
+  "PASS | OTP response has session_token | Got session_token: eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...",
+  "PASS | POST /auth/login-elearning (invalid creds) | Status 400",
+  "PASS | POST /auth/login-elearning (empty body) | Status 400",
+  "PASS | GET /nonexistent-route (404 expected) | Status 404",
+  "PASS | POST with invalid JSON | Status 400",
+  "PASS | GET /student/profile (unauthorized) | Status 401",
+  "PASS | GET /teacher/courses (unauthorized) | Status 401",
+  "PASS | Response has 'status' field",
+  "PASS | Status has 'code' (int)",
+  "PASS | Status has 'isSuccess' (bool)",
+  "PASS | Response has 'message'"
+]

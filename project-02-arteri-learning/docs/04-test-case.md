@@ -19,8 +19,10 @@ Dokumen ini adalah index utama test case. Detail test case dipisahkan per module
 | Blocked | Test cannot be executed due to blocker |
 | Not Run | Test has not been executed |
 
-## Current Baseline Notes
+## Current Status
 
-- Seluruh test case saat ini masih baseline dan belum dieksekusi.
-- Expected result disusun dari eksplorasi frontend dan perlu dikonfirmasi terhadap backend/runtime.
-- Test data final akan diperbarui setelah akun dan akses environment tersedia.
+- **Total Test Cases:** 47 (manual) + 19 (API) = **66**
+- **Executed:** **50 (76%)**
+- **Passed:** 50 | **Failed:** 0
+- **Coverage:** 42 manual TC + 19 API endpoint tests
+- Status detail dapat dilihat di masing-masing file test case dan `06-test-execution-report.md`
