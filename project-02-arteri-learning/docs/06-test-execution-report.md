@@ -583,7 +583,7 @@ Duration: 1 min
 
 **Test Date:** 17 Mei 2026  
 **Tool:** Python httpx  
-**Test Script:** `api-testing/test-lms-project-api.py`  
+**Test Script:** `automation-testing/api/test-lms-project-api.py`  
 **Backend URL:** `http://localhost:8080/api/v1`  
 **Database:** MariaDB 10.11 (Docker)  
 **Seed Data:** Roles (student, teacher, organizer)

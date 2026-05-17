@@ -100,11 +100,11 @@
 
 ## Test Script
 
-Script test tersimpan di: `api-testing/test-lms-project-api.py`
+Script test tersimpan di: `automation-testing/api/test-lms-project-api.py`
 
 Jalankan ulang:
 ```bash
-cd api-testing
+cd automation-testing/api
 python3 -m venv .venv
 source .venv/bin/activate
 pip install httpx

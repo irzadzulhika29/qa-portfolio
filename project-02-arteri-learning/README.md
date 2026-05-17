@@ -127,5 +127,5 @@ Dokumentasi QA dasar sudah disusun, tetapi eksekusi manual, API testing, automat
 | Bug Report | docs/05-bug-report.md |
 | Test Execution Report | docs/06-test-execution-report.md |
 | Release Readiness Report | docs/07-release-readiness-report.md |
-| API Testing | api-testing/README.md |
+| API Testing | automation-testing/api/README.md |
 | Automation Testing | automation-testing/README.md |

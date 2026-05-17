@@ -23,7 +23,7 @@ e2e-testing/
 ## Running Tests
 
 ```bash
-cd ~/Dev/qa-portfolio/project-02-arteri-learning/e2e-testing
+cd ~/Dev/qa-portfolio/project-02-arteri-learning/automation-testing/e2e
 npx playwright test              # Run all tests
 npx playwright show-report       # Open HTML report
 ```

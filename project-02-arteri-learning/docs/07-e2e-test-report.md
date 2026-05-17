@@ -93,12 +93,12 @@
 
 ## Test Script
 
-**Location:** `e2e-testing/tests/stuudi-e2e.spec.js`
+**Location:** `automation-testing/e2e/tests/stuudi-e2e.spec.js`
 
 Jalankan ulang:
 ```bash
 # Pastikan backend & frontend running
-cd ~/Dev/qa-portfolio/project-02-arteri-learning/e2e-testing
+cd ~/Dev/qa-portfolio/project-02-arteri-learning/automation-testing/e2e
 npx playwright test
 ```
 
@@ -130,5 +130,5 @@ npx playwright test
 
 ## Screenshots
 
-Test results & screenshots tersimpan di: `e2e-testing/test-results/`
-HTML report: `e2e-testing/playwright-report/`
+Test results & screenshots tersimpan di: `automation-testing/e2e/test-results/`
+HTML report: `automation-testing/e2e/playwright-report/`

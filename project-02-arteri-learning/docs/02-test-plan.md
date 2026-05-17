@@ -116,7 +116,7 @@ Testing dianggap selesai jika:
 | Bug Report | docs/05-bug-report.md |
 | Test Execution Report | docs/06-test-execution-report.md |
 | Release Readiness Report | docs/07-release-readiness-report.md |
-| API Testing Documentation | api-testing/README.md |
+| API Testing Documentation | automation-testing/api/README.md |
 | Automation Testing Documentation | automation-testing/README.md |
 | Performance Testing Note | performance-testing/README.md |
 | Security Basic Testing Note | security-basic-testing/security-checklist.md |
